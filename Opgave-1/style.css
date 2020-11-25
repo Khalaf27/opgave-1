@@ -1,0 +1,684 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+margin-right: 15px;
+  font-size: 14px;
+  text-align: right;  
+  
+}
+
+.color{
+    color: #7a0202;
+   display: inline-block;
+   padding: 5px;
+   
+}
+.icontxt2{
+    color: black;
+    display: inline-block;
+}
+.icontxt{
+    color: #ecc511;
+ display: inline-block;
+}
+
+
+.logo {
+    width: 150px;
+    float: left;
+
+}
+
+
+.nav {
+      width: auto;
+      display: block;
+     
+      font-size: 12px;
+      height: 100px;
+     
+}
+.nav>ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav>ul>li {
+   float: left;
+   line-height: 4.5em;
+   padding-left: 5px;
+      
+    /*nav bar text*/
+}
+
+.nav>ul>li a,
+nav>ul>li span {
+ font-weight: 800;
+ letter-spacing: 0.025em;
+ color: #000;
+ text-decoration: none;
+ border-radius: 6px;
+ padding: 0.5em 1em 0.5em 1em;
+}
+
+.nav>ul>li.current a {
+
+    text-decoration:  #ecc511  underline;
+    color: #000;
+}
+
+
+.nav>li>a:hover {
+    color: black;
+    
+}
+
+/*
+#nav {
+    width: auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+}
+#logo {
+    width: 50px;
+    float: none;
+
+}
+
+#nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#nav ul li {
+    float: left;
+    line-height: 4.5em;
+    padding-left: 5px;
+}
+
+#nav ul li a,
+#nav ul li span {
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#nav ul li>ul {
+    display: none;
+}
+
+#nav ul li:hover a,
+#nav ul li:hover span {
+    background: #fff;
+}
+
+#nav ul li.active a,
+#nav ul li.active span {
+    background: #fff;
+}
+
+#nav ul li.current a {
+   
+    text-decoration:  #ecc511 underline;
+    color: #000;
+}
+
+
+
+#header-wrapper {
+    float: left;
+    width: 33.333%;
+    height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    #header-wrapper {
+    float: none;
+        width: 100%;
+
+    }
+    
+}
+*/
+/* Landingpage */
+.container1 {
+    position: relative;
+    text-align: center;
+    color: black;
+    float: none;
+    width: 100%;
+}
+.bagimg{
+    max-width: 100%;
+      object-fit: cover;
+    
+}
+.text2 {
+
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.centered1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.text3 {
+       text-align: center;
+    
+       line-height: 18px;
+       font-size: 12px;
+      
+
+max-width: 33%;
+
+display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    max-height: 290px;
+}
+
+/* Column page */
+
+.container2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.btnstart {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #7a0202;
+    color: white;
+    padding: 5px;
+    width: 80px;
+}
+
+.text2 {
+line-height: 2px;
+font-size: 18x;
+font-weight: bold;
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 20%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+}
+
+.row {
+
+    margin-top: 50px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.columntxt {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.infobox {
+     position: relative;
+  
+}
+   
+.bagimg2 {
+    max-height: 100%;
+    height: 400px;
+      max-width: 100%;
+      object-fit: cover;
+}
+
+.column2 {
+   position: absolute;
+ display: grid;
+ width: 100%;
+ max-width: 80%;
+ margin: 0 auto;
+ grid-template-columns: 1fr 1fr minmax(160px, 1fr);
+ grid-gap: 20px;
+   top: 15px;
+   right: 50px;
+   text-align: inherit;
+   /*
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    */
+}
+.column3{
+ position: absolute;
+ display: grid;
+ width: 100%;
+ max-width: 80%;
+ margin: 0 auto;
+ grid-template-columns: 1fr 1fr minmax(160px, 1fr);
+ grid-gap: 20px;
+ top: 250px;
+ right: 50px;
+ text-align: inherit;
+}
+
+.item-4, .item-5, .item-6{
+    margin: 30px;
+    padding: 25px;
+    max-width: 100%;
+}
+
+/* kontakt  */
+
+.kontakt{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text4{
+    line-height: 10px;
+}
+
+/* Forms  */
+
+
+.column4{
+
+ float: left;
+ width: 20%;
+ 
+ margin: 5px;
+ padding: 100px;
+}
+.maps{
+    width: 600px;
+    height: 410px;
+    border: none;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: none;
+    resize: vertical;
+    margin: 5px;
+    
+}
+.row1{
+    width: 350px ;
+}
+label {
+    padding: 18px 18px 18px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #7a0202;
+    color: white;
+    padding: 10px 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container4 {
+   width: 100%;
+    
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+    
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Footer */
+
+footer{
+    background-color:#313132;
+   
+    
+    width: 100%;
+    
+    text-align: center;
+}
+
+.column5{
+    
+    display: inline-block;
+        width: 20%;
+        margin: 5px;
+padding: 50px;
+}
+
+.footertxt {
+    color: white;
+    text-align: left;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 85px) {
+    .centered {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 80%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .centered1 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 55%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .container1 {
+        position: relative;
+        text-align: center;
+        color: white;
+        float: none;
+        width: 100%;
+    }
+
+    .text2 {
+
+        text-align: center;
+    }
+
+    .text3 {
+        
+        text-align: center;
+        
+        line-height: 15px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 800px;
+        max-height: 290px;
+    }
+
+    /* Column page */
+
+    .container2 {
+        display: inline-block;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btnstart {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(240, 77, 77);
+        color: white;
+        padding: 5px;
+        width: 80px;
+    }
+    .column {
+        float: left;
+        width: 20%;
+        display: block;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .row {
+
+        margin-top: 50px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    .columntxt {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .centered {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bagimg {
+        max-width: 100%;
+        object-fit: cover;
+height: auto;
+    }
+
+    .centered1 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 45%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        font-weight: bolder;
+    }
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: none;
+    width: 100%;
+}
+
+.text2 {
+
+    text-align: center;
+}
+
+.btnstart {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #7a0202;
+    color: white;
+    padding: 1px;
+    width: 80px;
+}
+
+.text3 {
+    margin-left: 200px;
+    text-align: center;
+    max-width: 50%;
+    line-height: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    max-height: 290px;
+}
+
+
+    .column {
+        width: 100%;
+    }
+    .container2 {
+        display: inline-block;
+        text-align: center;
+        margin-top: 100px;
+    }
+     .column {
+         float: left;
+         width: 20%;
+         display: block;
+         margin: 5px;
+         padding: 10px;
+     }
+
+     .column3 {
+         position: absolute;
+         display: grid;
+         width: 100%;
+         max-width: 100%;
+         margin: 10px auto;
+         grid-template-columns: 1fr 1fr minmax(160px, 1fr);
+         grid-gap: 20px;
+         top: 250px;
+         right: 50px;
+         text-align: inherit;
+     }
+
+
+
+.column5 {
+
+    display: inline-block;
+    width: 33.3333%;
+    margin: 5px;
+    padding: 50px;
+}
+
+.footertxt {
+    color: white;
+    text-align: left;
+    display: inline-block;
+    padding: 20px;
+}
+
+    
+}
+
+
+/* Tredje linje */
+
+@media screen and (max-width: 800px) {
+   .infobox {
+       margin-top: 100px;
+       display: inline-block;
+       position: relative;
+       width: 100%;
+   }
+
+   .column2 {
+       width: 20%;
+       display: table; 
+      float: left;
+       margin: 5px;
+       padding: 10px;
+   }
+}
+
